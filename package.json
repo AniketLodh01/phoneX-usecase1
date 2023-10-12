@@ -1,0 +1,17 @@
+{
+  "name": "phonex-usecase1",
+  "version": "1.0.0",
+  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.",
+  "main": "index.js",
+  "scripts": {
+    "copy": "cp -R ./node_modules ./src/dependencies/nodejs/ && cp -R ./package.json ./src/dependencies/nodejs/ && cp -R ./package-lock.json ./src/dependencies/nodejs/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.1"
+  }
+}
